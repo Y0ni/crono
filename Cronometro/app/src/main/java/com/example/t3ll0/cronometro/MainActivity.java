@@ -70,7 +70,8 @@ Handler handler= new Handler();
             ClearTimer();
             AddTime();
             startButton.setText("Start");
-
+            stopButton.setText("Stop");
+            onStop = false;
         }
 
     }
